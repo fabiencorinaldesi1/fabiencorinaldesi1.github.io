@@ -1,6 +1,6 @@
 ---
 title: "Validated Numerical Newton-Puiseux Algorithm"
-authors: - "Florent Bréhard
+authors: - "Florent Bréhard"
 	 - "Fabien Corinaldesi
 	 - "Adrien Poteaux"
 collection: publications
