@@ -1,12 +1,13 @@
 <div class="archive__item">
-  <h2>{{ post.title }}</h2>
+  {% if post.url %}
+    <h2><a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a></h2>
+  {% else %}
+    <h2>{{ post.title }}</h2>
+  {% endif %}
+
   {% if post.authors %}
     <p>{{ post.authors | join: ", " }} — {{ post.date | date: "%Y" }}</p>
-  {% endif %}
-  {% if post.journal %}
-    <p>{{ post.journal }}</p>
-  {% endif %}
-  {% if post.url %}
-    <p><a href="{{ post.url }}" target="_blank">Lien</a></p>
+  {% elsif post.date %}
+    <p>{{ post.date | date: "%Y" }}</p>
   {% endif %}
 </div>
