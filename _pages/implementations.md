@@ -14,6 +14,6 @@ permalink: /implementations/
       <a href="{{ post.url }}">{{ post.title }}</a>
     {% endif %}
     <br>
-    <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    <small>{{ post.date | date: "%Y" }}</small>
   </p>
 {% endfor %}
