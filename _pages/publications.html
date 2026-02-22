@@ -14,14 +14,8 @@ permalink: /publications/
       <a href="{{ post.url }}">{{ post.title }}</a>
     {% endif %}
     <br>
-    <small>
-      {{ post.date | date: "%Y" }} — 
-      {% if post.authors %}
-        {% for author in post.authors %}
-          {{ author }}{% if forloop.last == false %}, {% endif %}
-        {% endfor %}
-      {% endif %}
-      {% if post.journal %} — {{ post.journal }}{% endif %}
-    </small>
+    {{ page.authors }}
+    <br>
+    <small>{{ post.date | date: "%Y" }}</small>
   </p>
 {% endfor %}
