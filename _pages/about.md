@@ -10,6 +10,6 @@ redirect_from:
 
 I am Fabien Corinaldesi, PhD student at the laboratoire CRIStAL at Université de Lille. My supervisors are François Boulier, Florent Bréhard and Adrien Poteaux.
 
-The goal of my PhD thesis is to treat singularities of algebraic curves using symbolic-numeric methods and validated numerics, towards both efficiently and maximum reliability from algorithm design to implementation.
+The goal of my PhD thesis is to treat singularities of algebraic curves using symbolic-numeric methods and validated numerics, aiming at both efficiency and maximum reliability from algorithm design to implementation.
 
 
